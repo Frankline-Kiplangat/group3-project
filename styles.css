@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header{
+    background-image: url(https://www.truckersb2b.com/portals/0/Images/SavingsOverview/Goodyear.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.logo img{
+     height: 90px;
+    width: 90px;
+    float: left;
+    margin-left: 40px;
+
+    
+}
+nav{
+    background-color: black;
+
+}
+ul{
+    float: right;
+   
+}
+ul li {
+    list-style: none;
+    display:inline-block;
+    padding :5px 15px;
+    text-decoration: none;
+    border:1px darkgoldenrod solid ;
+}
+ul li a{
+    text-decoration:none ;
+    color: black;
+    font-size: 14px;
+}
+ul li a:hover{
+    background-color: floralwhite;
+}
+.subtitle h1{
+    font-size: 50px;
+    margin: 60 px 130px;
+    color:blue;
+    margin-bottom: 20px;
+    float: left;
+    text-align:center;
+    
+}
+
+
+.search-sign{
+    text-align: center;
+    padding: 35%;
+    float: right;
+}
+
+.search-sign .fa{
+    font-size: 30px;
+    display: contents;
+    color:whitesmoke;
+    padding: 8px;
+}

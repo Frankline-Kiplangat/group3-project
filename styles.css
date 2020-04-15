@@ -1,12 +1,17 @@
+*
+{
+background-color: rgb(51, 158, 158);	
+font-size: large;
+}
 .button {
 	font-size:large;
 	margin-top:5px;
 	 font-family: 'Times New Roman';
 	padding:10px 15px;
-	text-shadow:0px 1px 1px rgba(94, 94, 94, 0.9);
+	text-shadow:0px 1px 1px rgba(7, 7, 7, 0.952);
 	display: inline-block;
 	background:rgb(224, 212, 177);
-    color: rgb(13, 47, 201);
+    color: rgb(7, 30, 133);
 }
 .button:hover {
 	text-shadow: 0px 0px 1px #000;
@@ -51,7 +56,7 @@
 }
 .list_2_of_1  p{
 	font-size:large;	
-	color:#383232;
+	color:#0a0909;
 	line-height: 1.8em;
 	padding:0; 	
 }

@@ -1,0 +1,30 @@
+ 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    margin-bottom: 2px;
+    font-family: 'Dancing Script', cursive;
+}
+nav li {
+    float: left;
+    text-decoration: none;
+     margin-top: -150px;
+     font-family: 'Oswald', sans-serif;
+}
+nav li a {
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 15px 19px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Barlow Condensed';
+    font-family: 'Oswald', sans-serif;
+}
+nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+} 

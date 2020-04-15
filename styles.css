@@ -26,8 +26,7 @@
 	float:left;
 	margin: 0% 0 0% 3.6%;
 }
-.listview_1_of_2:first-child { margin-left: 0; } 
-
+.listview_1_of_2:first-child { margin-left: 0; }
 .images_1_of_2 {
 	width: 46.2%;
 	padding:1.5%; 
@@ -60,7 +59,4 @@ ul{
     column-count: 3;
     column-gap: 50px;
     font-size:large ;
-}
-#more {
- display: none;
 }

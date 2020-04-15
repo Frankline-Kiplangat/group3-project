@@ -61,3 +61,6 @@ ul{
     column-gap: 50px;
     font-size:large ;
 }
+#more {
+ display: none;
+}

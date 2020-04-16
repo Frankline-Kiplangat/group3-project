@@ -65,3 +65,7 @@ ul{
     column-gap: 50px;
     font-size:large ;
 }
+#services>h3{
+text-align: center;
+font-size:80px;
+}

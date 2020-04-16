@@ -1,4 +1,58 @@
 
+ h3 {
+     color: teal;
+ }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    margin-bottom: 2px;
+    font-family: 'Dancing Script', cursive;
+}
+nav li {
+    float: left;
+    text-decoration: none;
+     margin-top: -150px;
+     font-family: 'Oswald', sans-serif;
+}
+nav li a {
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 15px 19px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Barlow Condensed';
+    font-family: 'Oswald', sans-serif;
+}
+nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+} 
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards {
+    box-shadow: 5px 5px 5px grey;
+    box-shadow: -5px -5px -5px grey;
+    padding: 20px;
+    margin-left: 2px;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+.cards p, .cards h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -22,10 +76,6 @@ header{
 nav{
     background-color: black;
 
-}
-ul{
-    float: right;
-   
 }
  ul li {
     list-style: none;
@@ -125,8 +175,10 @@ ul{
     column-count: 3;
     column-gap: 50px;
     font-size:large ;
+    float: right;
 }
 #services>h3{
 text-align: center;
 font-size:80px;
 }
+

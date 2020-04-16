@@ -1,6 +1,11 @@
-h1 {
-    color: black;
+.garage > h3{
+    text-align: center;
+    font-size: 80px;
 }
+.garage > h4{
+    text-align: center;
+}
+
 
 h2 {
     color: black;
@@ -19,19 +24,14 @@ body{
 }
 
 
-ul{
+ul > li{
     color: black;
     line-height: 1.6;
     display: inline-block;
+    list-style-type: none;
 }
- ul li:hover{
-    background-color: darkmagenta;
-}
-.row{
-   
-    text-align: center ;
-    text-decoration: none;
-}
+ 
+
 .control-group {
     line-height: 2.5;
     

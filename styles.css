@@ -6,7 +6,6 @@
 header{
     background-image: url(https://www.truckersb2b.com/portals/0/Images/SavingsOverview/Goodyear.jpg);
     background-size: cover;
-    height: 100vh;
     background-position: center;
     position: relative;
     overflow: hidden;
@@ -27,7 +26,7 @@ ul{
     float: right;
    
 }
-ul li {
+ ul li {
     list-style: none;
     display:inline-block;
     padding :5px 15px;
@@ -44,24 +43,23 @@ ul li a:hover{
 }
 .subtitle h1{
     font-size: 50px;
-    margin: 60 px 130px;
-    color:blue;
-    margin-bottom: 20px;
+    margin: 60px;
+    color:lightskyblue;
     float: left;
     text-align:center;
-    
 }
-
-
 .search-sign{
     text-align: center;
-    padding: 35%;
+    padding:20%;
+    margin: 100px 50px;
     float: right;
+    justify-content: space-between;
+    display: block;
 }
 
 .search-sign .fa{
     font-size: 30px;
-    display: contents;
+    display: inline-block;
     color:whitesmoke;
-    padding: 8px;
 }
+

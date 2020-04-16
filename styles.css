@@ -1,4 +1,46 @@
 
+.garage > h3{
+    text-align: center;
+    font-size: 80px;
+}
+.garage > h4{
+    text-align: center;
+}
+
+
+h2 {
+    color: black;
+}
+
+
+body{
+    margin:10px;
+    padding: 0px;
+   }
+.garage{
+    background-color: rgb(51, 158, 158);
+}
+.list-group-item{
+    color: black;
+}
+
+
+ul > li{
+    color: black;
+    line-height: 1.6;
+    display: inline-block;
+    list-style-type: none;
+}
+ 
+
+.control-group {
+    line-height: 2.5;
+    
+}
+.demo{
+    line-height: 2.5;
+=======
+
  h3 {
      color: teal;
  }
@@ -169,7 +211,7 @@ ul li a:hover{
 	font-size:large;	
 	color:#0a0909;
 	line-height: 1.8em;
-	padding:0; 	
+	padding:0;
 }
 ul{
     column-count: 3;

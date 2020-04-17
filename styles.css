@@ -1,31 +1,77 @@
-
-.garage > h3{
-    text-align: center;
-    font-size: 80px;
+header{
+    background-image: url(https://www.truckersb2b.com/portals/0/Images/SavingsOverview/Goodyear.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
 }
-.garage > h4{
-    text-align: center;
+form {
+    width: 800px;
+    margin: 0 auto;
+    
 }
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: auto;
+    float: right;
+  }
+  nav>ul {
+    text-align: justify;
+    font-size: x-large;
+    word-spacing:5px;
+    font-weight: bolder;
+  }
+  nav>ul>li {
+    display: inline-block;
+    text-overflow: clip;
+  }
+  nav>ul>li>a {
+    padding: 15px;
+    text-align: right;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 255)
+  }
 
-
-h2 {
-    color: black;
+.subtitle{
+    margin-top: 100px;
 }
-
-
+.logo img{
+    height: 90px;
+   width: 90px;
+   float: left;
+   margin-left: 10px;
+}
+#about-us {
+    font-size:1.1em;
+    }
 body{
     margin:10px;
     padding: 0px;
-   }
-.garage{
     background-color: rgb(51, 158, 158);
+     display: block;
+     font-size: 1.1em;
+} 
+.subtitle h1{
+    text-align: center;
+    color: rgb(117, 164, 252);
+    float: left;
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .list-group-item{
     color: black;
 }
 
-
-ul > li{
+.contact-right-info ul > li{
     color: black;
     line-height: 1.6;
     display: inline-block;
@@ -38,129 +84,50 @@ ul > li{
     
 }
 .demo{
-    line-height: 2.5;
+    line-height: 2px;
 }
-
- h3 {
-     color: teal;
- }
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    margin-bottom: 2px;
-    font-family: 'Dancing Script', cursive;
+#select-service{
+    padding: 5px 10px;
 }
-nav li {
-    float: left;
-    text-decoration: none;
-     margin-top: -150px;
-     font-family: 'Oswald', sans-serif;
+.form-group{
+    padding: 5px 10px;
 }
-nav li a {
-    display: block;
-    color: lightblue;
+.garage > h3{
     text-align: center;
-    padding: 15px 19px;
-    text-decoration: none;
-    font-size: xx-large;
-    font-family: 'Barlow Condensed';
-    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
 }
-nav li a:hover {
-    color: yellow;
-    text-decoration: none;
-} 
-
+.garage > h4{
+    text-align: center;
+}
+h2{
+    color:rgb(13, 14, 14);
+    font-size: 50px;
+    text-align: center;
+    
+}
 .team {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .cards {
     box-shadow: 5px 5px 5px grey;
     box-shadow: -5px -5px -5px grey;
     padding: 20px;
     margin-left: 2px;
     align-items: center;
-    height: 450px;
+    height: 420px;
     width: 300px;
     background-color: lightblue;
 }
-
 .cards p, .cards h3 {
     font-family: 'Oswald', sans-serif;
 }
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif ;
-}
-header{
-    background-image: url(https://www.truckersb2b.com/portals/0/Images/SavingsOverview/Goodyear.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-}
-.logo img{
-     height: 90px;
-    width: 90px;
-    float: left;
-    margin-left: 40px;
-
-    
-}
-nav{
-    background-color: black;
-
-}
- ul li {
-    list-style: none;
-    display:inline-block;
-    padding :5px 15px;
-    text-decoration: none;
-    border:1px darkgoldenrod solid ;
-}
-ul li a{
-    text-decoration:none ;
-    color: black;
-    font-size: 14px;
-}
-ul li a:hover{
-    background-color: floralwhite;
-}
-.subtitle h1{
-    font-size: 50px;
-    margin: 60px;
-    color:lightskyblue;
-    float: left;
-    text-align:center;
-}
-.search-sign{
-    text-align: center;
-    padding:20%;
-    margin: 100px 50px;
-    float: right;
-    justify-content: space-between;
-    display: block;
-}
-
-.search-sign .fa{
-    font-size: 30px;
-    display: inline-block;
-    color:whitesmoke;
-}
-
 .button {
 	font-size:large;
 	margin-top:5px;
-	 font-family: 'Times New Roman';
-	padding:10px 15px;
+	font-family: 'Times New Roman';
+	padding:8px 12px;
 	text-shadow:0px 1px 1px rgba(7, 7, 7, 0.952);
 	display: inline-block;
 	background:rgb(224, 212, 177);
@@ -184,7 +151,9 @@ ul li a:hover{
 	float:left;
 	margin: 0% 0 0% 3.6%;
 }
-.listview_1_of_2:first-child { margin-left: 0; }
+.listview_1_of_2:first-child { 
+    margin-left: 0;
+ }
 .images_1_of_2 {
 	width: 46.2%;
 	padding:1.5%; 
@@ -213,14 +182,22 @@ ul li a:hover{
 	line-height: 1.8em;
 	padding:0;
 }
-ul{
+.listimg_1_of_2 ul{
     column-count: 3;
     column-gap: 50px;
     font-size:large ;
-    float: right;
 }
-#services>h3{
+/* #services>h3{
 text-align: center;
 font-size:80px;
+} */
+
+#cars{
+    padding: 5px 10px;
+    width: 200px;
+}
+#package{
+    padding: 5px 10px;
+    width: auto;
 }
 
